@@ -35,6 +35,7 @@ La démarche adoptée pour la solution finale est la suivante :
   * Moyenner les 5 prédictions par image du jeu de test.
   * Evaluer l'ensemble du jeu de données à partir des prédictions effectuées sur les 5 groupes.
  4. **Optimisation du seuil de décision** à partir duquel une observation est déclarée comme anomalie ou non.
+ 5. **Score** : 0.004 (meilleur score possible = 0) sur le jeu de test public. 
 
 ### **Expérimentations**
 + Format HDF5 : Environ 90sec/epoch contre 4sec/epoch avec des images au format TFRecord taille 175x175 + RAM qui sature très vite. [-]
